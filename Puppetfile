@@ -36,3 +36,12 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "virtualbox",     "1.0.0"
+github "sysctl",         "1.0.0"
+github "postgresql",     "1.0.0"
+github "vagrant",        "1.0.0"
+github "chrome",         "1.0.0"
+github "wget",           "1.0.0"
+github "skype",	          "1.0.0"
+

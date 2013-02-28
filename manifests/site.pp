@@ -54,7 +54,7 @@ node default {
   include git
   include hub
   include nginx
-  include nvm
+  #NBA include nvm
   include ruby
 
   # fail if FDE is not enabled
@@ -63,14 +63,23 @@ node default {
   }
 
   # node versions
-  include nodejs::0-4
-  include nodejs::0-6
-  include nodejs::0-8
+  #NBA include nodejs::0-4
+  #NBA include nodejs::0-6
+  #NBA include nodejs::0-8
 
   # default ruby versions
-  include ruby::1-8-7
-  include ruby::1-9-2
+  #NBA include ruby::1-8-7
+  #NBA include ruby::1-9-2
   include ruby::1-9-3
+
+  #NBA
+  include virtualbox
+  include vagrant
+  include chrome
+  include wget
+  include skype
+  include sysctl::ipforwarding
+  include postgresql
 
   # common, useful packages
   package {
